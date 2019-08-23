@@ -17,7 +17,6 @@ export default function CharacterList() {
         
         const charData = res.data.results;
         
-        console.log(charData);
 
         setCharList(charData);
       })
