@@ -37,3 +37,12 @@ main {
 header h1 {
   text-align: center;
 }
+
+.navBar {
+  display: flex;
+  padding: 10px 0;
+}
+
+.navItem {
+  padding-right: 10px;
+}

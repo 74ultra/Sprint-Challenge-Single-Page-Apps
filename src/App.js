@@ -7,13 +7,14 @@ import WelcomePage from './components/WelcomePage';
 import CharacterList from './components/CharacterList';
 import LocationsList from './components/LocationsList';
 import EpisodesList from './components/EpisodesList';
+import Navigation from './components/Navigation';
 
 
 export default function App() {
   return (
     <main>
       <Header />
-      <TabNav />
+      <Navigation />
       
       <Route exact path="/" component={WelcomePage} />
       <Route path="/characters" component={CharacterList} />
