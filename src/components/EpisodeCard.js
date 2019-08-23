@@ -4,6 +4,7 @@ import { Card } from 'semantic-ui-react';
 export default function EpisodeCard(props) {
 
     return (
+        <div className='epiCards'>
         <Card>
            <Card.Content extra>Episode: {props.episode}</Card.Content>
            <Card.Content>
@@ -12,6 +13,7 @@ export default function EpisodeCard(props) {
            <Card.Content extra>Air Date: {props.airDate}</Card.Content>
             
         </Card>
+        </div>
     );
 }
 

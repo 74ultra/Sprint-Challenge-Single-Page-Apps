@@ -6,7 +6,7 @@ export default function Navigation() {
     return (
         <div className='navBar'>
             
-            <NavLink className='navItem' to="/">Home</NavLink>
+            <NavLink className='navItem' aria-current="true" to="/">Home</NavLink>
             <NavLink className='navItem' to="/characters">Characters</NavLink>
             <NavLink className='navItem' to="/locations">Locations</NavLink>
             <NavLink className='navItem' to="/episodes">Episodes</NavLink>
