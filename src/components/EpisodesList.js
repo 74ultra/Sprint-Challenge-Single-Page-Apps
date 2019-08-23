@@ -14,9 +14,7 @@ export default function EpisodesList() {
             .then(res => {
 
                 const epiData = res.data.results;
-
-                console.log(epiData);
-                
+                console.log(epiData)
                 setEpiList(epiData);
             })
     }, []);
@@ -28,6 +26,7 @@ export default function EpisodesList() {
                                     name={epi.name}
                                     airDate={epi.air_date}
                                     episode={epi.episode}
+                                
 
                 />
             })}
